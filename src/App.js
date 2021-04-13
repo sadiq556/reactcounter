@@ -91,6 +91,16 @@ class App extends Component {
             {" "}
           </Counters>
         </main>
+
+        <div
+          style={{
+            display: 'flex',
+              justifyContent: 'center',
+             alignItems: 'center',
+      
+        }} className='m-6'>
+          <small style={this.style}>Built By Muhammad Sadiq</small>
+        </div>
       </React.Fragment>
     );
   }
